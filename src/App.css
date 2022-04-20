@@ -1,0 +1,168 @@
+.myNavbar {
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+}
+.navbar {
+  /* background: rgb(197, 37, 37); */
+  color: #f0ffff;
+  padding: 1px 5px;
+}
+
+.btn-location {
+  width: 9rem;
+}
+.searchBar {
+  padding-right: 20px;
+  width: 40rem;
+}
+
+#signUp {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: #898f97;
+  width: 6rem;
+}
+#signUp:hover {
+  background-color: #7a8087;
+}
+#login {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.userName {
+  display: flex;
+  justify-content: center;
+}
+.firstSection {
+  background: rgb(196, 206, 217);
+  width: 100%;
+  height: 92vh;
+  display: block;
+}
+.heading {
+  font-size: 90px;
+  text-decoration: none;
+  color: black;
+  margin: 0 120px;
+}
+.textHead {
+  color: #ec1010;
+}
+
+.firstImg {
+  width: 500px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 70px;
+  border-radius: 1rem;
+}
+
+.headPara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #252429;
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 30px;
+}
+.promoteHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: black;
+  background-color: beige;
+  padding: 1rem;
+}
+
+.addBusinessForm-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addBusinessForm {
+  margin: 2rem;
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  background: #212529;
+  ;
+  /* background: -webkit-linear-gradient(to top, #89fffd, #ef32d9);
+  background: linear-gradient(to top, #89fffd, #ef32d9); */
+}
+.addMain {
+  height: 100vh;
+
+  /* background: rgba(196, 206, 217, 1); */
+
+  
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, #212529 0%, rgb(7, 82, 87) 35%, rgba(0,212,255,1) 100%);
+}
+
+.mySearchPage {
+  /* background: rgba(196, 206, 217, 1); */
+  color: var(--bg-dark);
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, #212529 0%, rgb(7, 82, 87) 35%, rgba(0,212,255,1) 100%);
+  
+}
+
+.mySearchBar {
+  border-radius: 20 px;
+  
+}
+
+.knowDetails{
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, #212529 0%, rgb(10, 100, 107) 35%, rgba(0,212,255,1) 100%);
+height: 100vh;
+}
+
+footer{
+  padding: 1rem 0;
+  background:  #212529;
+  color: white;
+}
+footer li{
+  list-style: none;
+}
+
+footer li Link{
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.iconStyle:hover{
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+}
+
+@keyframes rotatefont {
+  0% { 
+    transform: scale(0.6);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+.categoryCard:hover{
+  border: 2px solid #212529; 
+  box-shadow: 5px 5px;
+}
+
+.contactUs{
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, #212529 0%, rgb(10, 100, 107) 35%, rgba(0,212,255,1) 100%);
+
+}
